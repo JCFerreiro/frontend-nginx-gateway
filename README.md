@@ -14,8 +14,8 @@ Este repositorio contiene la configuración y el código para el **frontend Angu
 
 ## Info From
 
-https://docs.docker.com/
-https://kubernetes.io/docs/home/
-https://nginx.org/en/docs/
-https://angular.dev/guide/ssr
+- https://docs.docker.com/
+- https://kubernetes.io/docs/home/
+- https://nginx.org/en/docs/
+- https://angular.dev/guide/ssr
 
