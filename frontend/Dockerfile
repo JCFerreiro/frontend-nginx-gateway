@@ -1,7 +1,7 @@
-# Usa una imagen base de Node.js
+# Imagen base Nodejs
 FROM node:16-alpine
 
-# Establecer directorio de trabajo
+# directorio de trabajo
 WORKDIR /app
 
 # Copiar archivos del proyecto al contenedor
@@ -13,8 +13,8 @@ RUN npm install
 # Construir la aplicación Angular para producción
 RUN npm run build:ssr
 
-# Instalar el servidor HTTP para servir la aplicación
+# Instalar servidor HTTP para la aplicación
 RUN npm install -g http-server
 
-# Servir la aplicación desde el directorio dist
+# Servir aplicación directorio dist
 CMD ["http-server", "dist/"]
