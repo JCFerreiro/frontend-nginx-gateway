@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: angular-ssr-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: angular-ssr-app
+  template:
+    metadata:
+      labels:
+        app: angular-ssr-app
+    spec:
+      containers:
+        - name: angular-ssr-app
+          image: angular-ssr-app:latest
+          ports:
+            - containerPort: 8080
