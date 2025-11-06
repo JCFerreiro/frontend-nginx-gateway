@@ -19,6 +19,8 @@ Este repositorio contiene la configuración y el código para el **frontend Angu
 - https://nginx.org/en/docs/
 - https://angular.dev/guide/ssr
 
+##
+
 <p align="center">
   <img src="./logo.png" alt="Logo" />
 </p>
