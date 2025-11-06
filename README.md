@@ -6,10 +6,9 @@ Este repositorio contiene la configuración y el código para el **frontend Angu
 
 ## Estructura del Proyecto
 
-/frontend-nginx-gateway
-│
-├── /frontend # Código fuente del frontend Angular (SSR)
-├── /nginx-config # Archivos de configuración de NGINX
-├── /kubernetes # Archivos de configuración de Kubernetes
-└── README.md # Documentación general
+- **/frontend**: Código fuente del frontend Angular (SSR)
+- **/nginx-config**: Archivos de configuración de NGINX
+- **/kubernetes**: Archivos de configuración de Kubernetes
+- **README.md**: Documentación general
+
 
