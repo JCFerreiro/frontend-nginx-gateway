@@ -24,3 +24,7 @@ Este repositorio contiene la configuración y el código para el **frontend Angu
 <p align="center">
   <img src="./logo.png" alt="Logo" />
 </p>
+
+<p align="center">
+  <a href="https://movievault.net/">Movie Database for Collectors</a>
+</p>
